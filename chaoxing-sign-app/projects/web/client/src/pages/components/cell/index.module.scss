@@ -1,0 +1,23 @@
+.cell {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  background: white;
+  height: 50px;
+
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: initial;
+  }
+
+  .right {
+  }
+}
+
+.iconGray {
+  color: #ccc;
+}

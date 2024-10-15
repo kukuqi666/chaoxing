@@ -1,0 +1,37 @@
+{
+  "name": "superstar-checkin",
+  "version": "2.1.0",
+  "description": "",
+  "scripts": {
+    "start": "node build/index.js",
+    "start-docker": "node index.js",
+    "dev": "ts-node index.ts",
+    "build": "tsc && cp -a --reflink=auto --remove-destination ./sdk ./build/"
+  },
+  "bin": "build/index.js",
+  "files": [
+    "build"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@types/jsdom": "^20.0.0",
+    "@types/node": "^18.7.13",
+    "ts-node": "^10.9.1",
+    "tsc": "^2.0.4",
+    "typescript": "^4.8.2"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "axios-cookiejar-support": "^4.0.3",
+    "chalk": "4",
+    "cheerio": "1.0.0-rc.12",
+    "jsdom": "^20.0.0",
+    "oicq": "git+https://github.com/Clansty/oicq#commit=6c3f34adc681e73c2511f1f49a79fb387dcd1555",
+    "tencentcloud-sdk-nodejs": "^4.0.421",
+    "tough-cookie": "^4.1.2",
+    "yaml": "^2.1.1"
+  },
+  "packageManager": "yarn@3.2.3"
+}

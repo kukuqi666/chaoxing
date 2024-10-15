@@ -1,0 +1,46 @@
+.pageContent {
+}
+
+.accountInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  height: 80px;
+  background: white;
+  border-top: 0.5px solid #ebebeb;
+
+  &__left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    .avatar {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+
+    .name {
+      font-size: 16px;
+    }
+  }
+
+  &__right {
+    .icon {
+      color: #ccc;
+    }
+  }
+}
+
+.sectionBlock {
+  margin-bottom: 8px;
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .cellIcon {
+    width: 35px;
+    height: 35px;
+  }
+}

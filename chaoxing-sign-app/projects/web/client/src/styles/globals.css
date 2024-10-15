@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* postcss-mobile-forever appSelector recognize */
+  #__app {
+  }
+  #__app-wrapper {
+  }
+  #__next {
+    height: 100%;
+  }
+}
