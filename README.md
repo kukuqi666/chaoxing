@@ -1,4 +1,4 @@
-# AutoCheckin 学习通自动签到
+# 一、AutoCheckin 学习通自动签到
 
 **！！！支持普通签到，手势签到，二维码签到，拍照签到，位置签到**
 学习通自动签到，针对早起不能学生，**需要自行提供参数**。
@@ -142,7 +142,7 @@ sudo vim /etc/crontab
 
 
 
-# ✌auto-sign-chaoxing
+# 二、 ✌auto-sign-chaoxing
 
 👴 整个自动签到，在家安稳睡觉。
 ## 技术栈
@@ -204,7 +204,7 @@ yarn start
 
 
 
-# ChaoXingAutoSign
+# 三、ChaoXingAutoSign
 超星学习通-自动签到（ChaoXingAutoSign），原作者已经不更新，我修改了登录模块可以用了，但是目前手上没有课程给我签到，所以无法验证签到是否正常
 # 设置环境变量/常用的变量
 
@@ -251,7 +251,7 @@ actions启用Workflows
 
 
 
-# ⭐ ChaoxingSign | 超星学习通签到
+# 四、⭐ ChaoxingSign | 超星学习通签到
 PHP 版超星学习用自动签到，支持多用户签到，二次开发便捷！
 
 `PHP 7.3` 测试通过，理应 `PHP 5.4` 及以上都能够使用
@@ -383,10 +383,7 @@ Server酱 消息推送成功
 
 
 
-
-
-
-## 超星学习通自动签到  
+# 五、超星学习通自动签到  
 <!-- 填上账号密码运行运行就好了,别忘记装模块   -->
 支持学习通的所有签到  
 支持server酱推送  
@@ -458,7 +455,7 @@ $$z*(x+y)$$
 
 
 
-<h1 align="center">超星学习通签到 - Universal Platform</h1>
+# 六、超星学习通签到 
 
 **新版本正在施工中，预计支持 Linux、Windows、macOS、iPad、iPhone、Android、HarmonyOS 客户端全平台**
 
@@ -551,15 +548,6 @@ $$z*(x+y)$$
 - 如有触及相关平台规定或者权益，烦请联系我们删除。
 
 
-## Star History
-
-<a href="https://star-history.com/#eric-gitta-moore/chaoxing-sign-app&Date">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=eric-gitta-moore/chaoxing-sign-app&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=eric-gitta-moore/chaoxing-sign-app&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=eric-gitta-moore/chaoxing-sign-app&type=Date" />
- </picture>
-</a>
 
 
 
@@ -567,9 +555,7 @@ $$z*(x+y)$$
 
 
 
-
-
-<h1 align="center">🌿超星学习通签到🌿</h1>
+# 七、🌿超星学习通签到🌿
 
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
@@ -715,7 +701,7 @@ docker run -d -p 80:80 -p 5000:5000 ghcr.io/cxorz/chaoxing-signin
 
 
 
-# Superstar Checkin
+# 八、 Superstar Checkin
 
 超星学习通自动签到工具
 
@@ -802,7 +788,7 @@ docker run -d -p 80:80 -p 5000:5000 ghcr.io/cxorz/chaoxing-signin
 
 
 
-# XueXiTong
+# 九、XueXiTong
 
 学习通小程序
 
@@ -857,9 +843,6 @@ docker run -d -p 80:80 -p 5000:5000 ghcr.io/cxorz/chaoxing-signin
 - [腾讯云函数](https://github.com/morning-start/XueXiTong/wiki/%E8%85%BE%E8%AE%AF%E4%BA%91%E5%87%BD%E6%95%B0)
 - [华为云函数](https://github.com/morning-start/XueXiTong/wiki/%E5%8D%8E%E4%B8%BA%E4%BA%91%E5%87%BD%E6%95%B0)
 
-## 版权说明
-
-该项目签署了 GPL 授权许可，详情请参阅 LICENSE.md
 
 
 
@@ -869,8 +852,7 @@ docker run -d -p 80:80 -p 5000:5000 ghcr.io/cxorz/chaoxing-signin
 
 
 
-
-<h1 align="center">签到小工具</h1>
+# 十、签到小工具
 
 <p align="center">手动签到；自动签到；签到队列</p>
 
@@ -920,7 +902,7 @@ docker run -d -p 80:80 -p 5000:5000 ghcr.io/cxorz/chaoxing-signin
 
 
 
-# xxtSign
+# 十一、xxtSign
 
 > 版本号V2.2.0 更新日期2022.3.12
 ## 支持的签到类型
@@ -1025,6 +1007,15 @@ usercount:2
 
 
 
+## Star History
+
+<a href="https://star-history.com/#eric-gitta-moore/chaoxing-sign-app&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=eric-gitta-moore/chaoxing-sign-app&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=eric-gitta-moore/chaoxing-sign-app&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=eric-gitta-moore/chaoxing-sign-app&type=Date" />
+ </picture>
+</a>
 
 
 
@@ -1032,9 +1023,7 @@ usercount:2
 
 
 
-
-
-## 其他项目推荐
+# 其他项目推荐
 
 | 项目地址                                                | 开发语言   | 备注                                           |
 | ------------------------------------------------------- | ---------- | ---------------------------------------------- |
@@ -1049,4 +1038,3 @@ usercount:2
 | https://github.com/w964522982/xxtSign                   | Python     | 学习通自动签到,普通\|拍照\|位置\|手势\|签到码  |
 | https://github.com/eric-gitta-moore/chaoxing-sign-app   | TypeScript | 超星学习通全平台，多账号批量签到               |
 | https://github.com/morning-start/XueXiTong              |	python	   | 学习通自动签到，支持普通，图片等 	    		|
-| ------------------------------------------------------- | ---------- | ---------------------------------------------- |
